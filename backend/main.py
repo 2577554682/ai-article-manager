@@ -1,3 +1,9 @@
+import sys
+from pathlib import Path
+
+# 确保 backend 目录在 Python 搜索路径中（解决 Railway 部署的导入问题）
+sys.path.insert(0, str(Path(__file__).parent))
+
 import json
 from datetime import datetime, timezone
 from typing import List
