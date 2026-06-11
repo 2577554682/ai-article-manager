@@ -1,0 +1,11 @@
+node_modules/
+dist/
+frontend.log
+backend.log
+backend/.env
+*.db
+__pycache__/
+*.pyc
+.claude/
+.idea/
+*.log
